@@ -16,7 +16,7 @@ public class HomeController {
     @RequestMapping(path = "/", method = RequestMethod.GET)
     public ModelAndView mostrarHome() {
         ModelAndView modelAndView = new ModelAndView("inicio"); // Cambiado a "inicio"
-        modelAndView.addObject("mensaje", "Bienvenido al Portal de Prevención de Riesgos");
+        modelAndView.addObject("mensaje", "Bienvenido al Portal de Prevención de Riesgos dobleXD");
         return modelAndView;
     }
 }
